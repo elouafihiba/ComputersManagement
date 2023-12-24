@@ -15,7 +15,7 @@ public class ComputerManagerAction implements ComputerManager {
     private final ComputerMapper dtoMapper;
 
     @Override
-    public Computer getComputer(Long id_Pc) {
+    public ComputerDTO getComputer(Long id_Pc) {
         Computer computer = computerRepository.findById(id_Pc).orElse(null);
         return computer;
     }
