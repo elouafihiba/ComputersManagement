@@ -5,12 +5,11 @@ import com.example.controle.dao.repositories.ComputerRepository;
 import com.example.controle.service.dtos.ComputerDTO;
 import com.example.controle.service.mappers.ComputerMapper;
 import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-@Slf4j
+
 public class ComputerManagerAction implements ComputerManager {
     private final ComputerRepository computerRepository;
     private final ComputerMapper dtoMapper;
