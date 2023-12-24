@@ -10,5 +10,5 @@ including adding new computers, updating their information, and viewing a list o
 To get started with the project, follow these steps:
 1. Clone the repository.
 2. Open the project in IntelliJ IDEA.
-3. Run the backend application classe.
+3. Run the backend application class.
 4. Access the application at `http://localhost:8090`.
